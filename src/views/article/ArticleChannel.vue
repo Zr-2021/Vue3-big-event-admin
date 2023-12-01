@@ -2,7 +2,8 @@
 import { Edit, Delete } from '@element-plus/icons-vue'
 import { ref } from 'vue'
 import { artGetChannelsService, artDelChannelService } from '@/api/article.ts'
-import ChannelEdit from './ChannelEdit.vue'
+import ChannelEdit from './components/ChannelEdit.vue'
+import PageContainer from './components/PageContainer.vue'
 
 const channelList = ref([])
 const loading = ref(false)
